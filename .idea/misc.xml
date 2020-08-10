@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/concurrent/pom.xml" />
         <option value="$PROJECT_DIR$/reflect/pom.xml" />
         <option value="$PROJECT_DIR$/readandwrite/pom.xml" />
+        <option value="$PROJECT_DIR$/optional/pom.xml" />
+        <option value="$PROJECT_DIR$/redis_lua/pom.xml" />
       </list>
     </option>
   </component>

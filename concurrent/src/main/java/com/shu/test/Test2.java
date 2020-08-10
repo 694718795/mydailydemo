@@ -1,5 +1,8 @@
 package com.shu.test;
 
+import java.util.ArrayList;
+import java.util.Optional;
+
 /**
  * @description:
  * @author: shurunlong
@@ -8,5 +11,13 @@ package com.shu.test;
 public class Test2 {
     public static void main(String[] args) {
 
+
+        ArrayList<String> strings = new ArrayList<>();
+
+
+
     }
+
+
+
 }
