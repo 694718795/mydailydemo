@@ -1,0 +1,16 @@
+### 1  简述  
+
+​     在这个demo中仿照告警入库服务,在告警入库服务中用一个线程将kafka中的告警 缓存到队列中,再用一个线程将队列中的告警归并后入库,
+
+1  demo中可在test包下运行Write类中 向origin中写入十万个数, 
+
+2   demo中可在test包下运行count类中 可给origin和destination计数
+
+3   queueDemo中 需要手动唤醒
+
+4  在queueDemo_BlockingQueue 中演示BlockingQueue的自动唤醒
+
+5  在conponent中  使用是先 将destionation和origin文件中清空, 修改好 threadClass 中的读写origin和destination的文       件路径 为resource下的 origin和destination , 然后再origin中写入十万个数
+
+即可运行demo.
+

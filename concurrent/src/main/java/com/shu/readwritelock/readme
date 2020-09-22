@@ -1,0 +1,9 @@
+参考博客 https://www.cnblogs.com/xiaoxi/p/9140541.html
+
+
+在ReentrantReadWriteLock 里面，读锁和写锁的锁主体都是 Sync ，但读锁和写锁的加锁方式不一样。
+读锁是共享锁，写锁是独占锁。读锁的共享锁可保证并发读非常高效，而读写、写读、写写的过程互斥，因为读锁和写锁是分离的。所以ReentrantReadWriteLock的并发性相比一般的互斥锁有了很大提升
+
+
+
+https://blog.csdn.net/qq_29373285/article/details/85164190  深入浅出Java锁--Lock实现原理(底层实现)

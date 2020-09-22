@@ -1,0 +1,12 @@
+server:
+  port: 8080
+es:
+  nodes: peer1:127.0.0.1
+
+spring:
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: peer1:127.0.0.1
+      repositories:
+        enabled: true
