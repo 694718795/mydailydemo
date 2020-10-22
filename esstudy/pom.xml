@@ -15,6 +15,15 @@
         <version>2.0.3.RELEASE</version>
     </parent>
 
+    <properties>
+        <scala.version>2.11</scala.version>
+        <slf4j.version>1.7.21</slf4j.version>
+        <kafka.version>2.0.0</kafka.version>
+        <lombok.version>1.16.18</lombok.version>
+        <junit.version>4.11</junit.version>
+
+    </properties>
+
     <dependencies>
         <!--Spring Boot 监控端点 actuator-->
         <dependency>
@@ -47,6 +56,13 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+
+        <!--kafka-->
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+
         </dependency>
 
         <dependency>
@@ -131,6 +147,18 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka-clients</artifactId>
+            <version>${kafka.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka_${scala.version}</artifactId>
+            <version>${kafka.version}</version>
         </dependency>
 
     </dependencies>

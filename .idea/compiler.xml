@@ -6,21 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hadoopstudy" />
-        <module name="readandwrite" />
-        <module name="redis_lua" />
-        <module name="kafka" />
         <module name="concurrent" />
-        <module name="zidingyiannotation" />
-        <module name="queue" />
         <module name="esstudy" />
         <module name="optional" />
+        <module name="redis_lua" />
+        <module name="datasend" />
         <module name="jpcap" />
+        <module name="readandwrite" />
+        <module name="zidingyiannotation" />
+        <module name="springbootjpadruid" />
+        <module name="webservicedemo" />
         <module name="reflect" />
+        <module name="kafka" />
+        <module name="datareceive" />
+        <module name="queue" />
+        <module name="hadoopstudy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="concurrent" target="1.8" />
+      <module name="datacascade" target="1.8" />
+      <module name="datareceive" target="1.8" />
+      <module name="datasend" target="1.8" />
       <module name="esstudy" target="1.8" />
       <module name="hadoopstudy" target="1.8" />
       <module name="jpcap" target="1.8" />
@@ -30,12 +37,17 @@
       <module name="readandwrite" target="1.8" />
       <module name="redis_lua" target="1.8" />
       <module name="reflect" target="1.8" />
+      <module name="springbootjpadruid" target="1.8" />
+      <module name="webservicedemo" target="1.8" />
       <module name="zidingyiannotation" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="concurrent" options="-parameters" />
+      <module name="datacascade" options="-parameters" />
+      <module name="datareceive" options="-parameters" />
+      <module name="datasend" options="-parameters" />
       <module name="esstudy" options="-parameters" />
       <module name="hadoopstudy" options="-parameters" />
       <module name="jpcap" options="-parameters" />
@@ -45,6 +57,8 @@
       <module name="readandwrite" options="-parameters" />
       <module name="redis_lua" options="-parameters" />
       <module name="reflect" options="-parameters" />
+      <module name="springbootjpadruid" options="-parameters" />
+      <module name="webservicedemo" options="-parameters" />
       <module name="zidingyiannotation" options="-parameters" />
     </option>
   </component>

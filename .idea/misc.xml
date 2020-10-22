@@ -17,6 +17,9 @@
         <option value="$PROJECT_DIR$/esstudy/pom.xml" />
         <option value="$PROJECT_DIR$/jpcap/pom.xml" />
         <option value="$PROJECT_DIR$/kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/webservicedemo/pom.xml" />
+        <option value="$PROJECT_DIR$/datacascade/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootjpadruid/pom.xml" />
       </list>
     </option>
   </component>

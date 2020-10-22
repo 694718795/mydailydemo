@@ -6,7 +6,7 @@ es:
 spring:
   data:
     elasticsearch:
-      cluster-name: elasticsearch
-      cluster-nodes: peer1:127.0.0.1
+      cluster-name: docker-cluster
+      cluster-nodes: 180.76.166.199:9300
       repositories:
         enabled: true
