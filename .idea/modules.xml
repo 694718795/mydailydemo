@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/basic-component/basic-common-web/basic-common-web.iml" filepath="$PROJECT_DIR$/basic-component/basic-common-web/basic-common-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrent/concurrent.iml" filepath="$PROJECT_DIR$/concurrent/concurrent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/datacascade/datacascade.iml" filepath="$PROJECT_DIR$/datacascade/datacascade.iml" />
-      <module fileurl="file://$PROJECT_DIR$/datacascade/datareceive/datareceive.iml" filepath="$PROJECT_DIR$/datacascade/datareceive/datareceive.iml" />
-      <module fileurl="file://$PROJECT_DIR$/datacascade/datasend/datasend.iml" filepath="$PROJECT_DIR$/datacascade/datasend/datasend.iml" />
-      <module fileurl="file://$PROJECT_DIR$/esstudy/esstudy.iml" filepath="$PROJECT_DIR$/esstudy/esstudy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hadoopstudy/hadoopstudy.iml" filepath="$PROJECT_DIR$/hadoopstudy/hadoopstudy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jpcap/jpcap.iml" filepath="$PROJECT_DIR$/jpcap/jpcap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-component/data-component/data-component.iml" filepath="$PROJECT_DIR$/basic-component/data-component/data-component.iml" />
       <module fileurl="file://$PROJECT_DIR$/kafka/kafka.iml" filepath="$PROJECT_DIR$/kafka/kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafkaSink/kafkaSink.iml" filepath="$PROJECT_DIR$/kafkaSink/kafkaSink.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mydailydemo.iml" filepath="$PROJECT_DIR$/.idea/mydailydemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/optional/optional.iml" filepath="$PROJECT_DIR$/optional/optional.iml" />
-      <module fileurl="file://$PROJECT_DIR$/queue/queue.iml" filepath="$PROJECT_DIR$/queue/queue.iml" />
-      <module fileurl="file://$PROJECT_DIR$/readandwrite/readandwrite.iml" filepath="$PROJECT_DIR$/readandwrite/readandwrite.iml" />
-      <module fileurl="file://$PROJECT_DIR$/redis_lua/redis_lua.iml" filepath="$PROJECT_DIR$/redis_lua/redis_lua.iml" />
-      <module fileurl="file://$PROJECT_DIR$/reflect/reflect.iml" filepath="$PROJECT_DIR$/reflect/reflect.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springbootjpadruid/springbootjpadruid.iml" filepath="$PROJECT_DIR$/springbootjpadruid/springbootjpadruid.iml" />
-      <module fileurl="file://$PROJECT_DIR$/webservicedemo/webservicedemo.iml" filepath="$PROJECT_DIR$/webservicedemo/webservicedemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zidingyiannotation/zidingyiannotation.iml" filepath="$PROJECT_DIR$/zidingyiannotation/zidingyiannotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utilcollection/utilcollection.iml" filepath="$PROJECT_DIR$/utilcollection/utilcollection.iml" />
     </modules>
   </component>
 </project>

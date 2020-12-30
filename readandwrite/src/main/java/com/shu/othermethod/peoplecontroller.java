@@ -1,14 +1,10 @@
 package com.shu.othermethod;
 
-import com.shu.jpa.api.Student;
-import com.shu.othermethod.po.Peopleread;
-import com.shu.othermethod.po.Peoplewrite;
+import com.shu.othermethod.readpo.Peopleread;
+import com.shu.othermethod.writepo.Peoplewrite;
 import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiImplicitParam;
-import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 import org.springframework.jdbc.core.RowMapper;

@@ -1,4 +1,7 @@
 package com.shu.othermethod.writedao;
 
-public interface PeoplewriteDao {
+import com.shu.othermethod.writepo.Peoplewrite;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PeoplewriteDao extends JpaRepository<Peoplewrite, Integer> {
 }

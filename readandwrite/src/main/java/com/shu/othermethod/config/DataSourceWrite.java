@@ -31,7 +31,7 @@ import java.util.Map;
 @EnableJpaRepositories(
         entityManagerFactoryRef = "entityManagerFactoryWrite",
         transactionManagerRef = "entityManagerWrite",
-        basePackages = {"com.shu.othermethod.writedao.*"}//repository所在位置
+        basePackages = {"com.shu.othermethod.writedao"}//repository所在位置
 
 )
 public class DataSourceWrite {
@@ -61,7 +61,7 @@ public class DataSourceWrite {
 
                 .properties(getVendorProperties())
 
-                .packages("com.shu.othermethod.po.Peoplewrite") //设置实体类所在位置
+                .packages("com.shu.othermethod.writepo") //设置实体类所在位置
 
                 .persistenceUnit("iflytekPersistenceUnit")
 

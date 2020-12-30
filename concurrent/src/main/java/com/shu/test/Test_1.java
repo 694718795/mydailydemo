@@ -7,8 +7,17 @@ package com.shu.test;
  */
 public class Test_1 {
     public static void main(String[] args) {
-        System.out.println(Test_1_B.str);
 
-        while (true);
+
+        Test_1_C test_1_c = new Test_1_C();
+        System.out.println(test_1_c.toString());
+        test_1_c.setBage("1");
+        test_1_c.setBage("2");
+        test_1_c.setHahahaC("C");
+
+
+
+
+
     }
 }

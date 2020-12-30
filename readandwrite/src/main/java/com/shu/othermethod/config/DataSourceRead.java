@@ -29,7 +29,7 @@ import java.util.Map;
 @EnableJpaRepositories(
         entityManagerFactoryRef = "entityManagerFactoryRead",
         transactionManagerRef = "transactionManagerRead",
-        basePackages = {"com.shu.othermethod.readdao.*"}//repository所在位置
+        basePackages = {"com.shu.othermethod.readdao"}//repository所在位置
 
 )
 public class DataSourceRead {
@@ -58,7 +58,7 @@ public class DataSourceRead {
 
                 .properties(getVendorProperties())
 
-                .packages("com.shu.othermethod.po.Peopleread") //设置实体类所在位置
+                .packages("com.shu.othermethod.readpo") //设置实体类所在位置
 
                 .persistenceUnit("iflytekPersistenceUnit")
 

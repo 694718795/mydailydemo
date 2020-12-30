@@ -4,6 +4,8 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  * @description:  10个线程同时去输出50000以内的偶数
+ *
+ * https://baijiahao.baidu.com/s?id=1663690872148615289&wfr=spider&for=pc
  * @author: shurunlong
  * @create: 2020-07-23 09:54
  */
@@ -29,9 +31,9 @@ public class LatchDemo implements Runnable{
     public void run() {
         synchronized (this) {
             try {
-                for (int i = 0; i < 50000; i++) {
+                for (int i = 0; i < 5000; i++) {
                     if (i % 2 == 0) {//50000以内的偶数
-                        System.out.println(i);
+                        System.out.println(Thread.currentThread().getName()+"---------"+i);
                     }
                 }
             } finally {

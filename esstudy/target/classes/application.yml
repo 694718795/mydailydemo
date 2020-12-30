@@ -1,0 +1,12 @@
+server:
+  port: 8080
+es:
+  nodes: peer1:127.0.0.1
+
+spring:
+  data:
+    elasticsearch:
+      cluster-name: docker-cluster
+      cluster-nodes: 180.76.166.199:9300
+      repositories:
+        enabled: true

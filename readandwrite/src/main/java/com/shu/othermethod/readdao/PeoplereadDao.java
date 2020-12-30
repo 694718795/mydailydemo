@@ -1,4 +1,7 @@
 package com.shu.othermethod.readdao;
 
-public interface PeoplereadDao {
+import com.shu.othermethod.readpo.Peopleread;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PeoplereadDao extends JpaRepository<Peopleread, Integer> {
 }

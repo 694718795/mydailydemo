@@ -26,4 +26,5 @@ public interface StudentService {
   Student findById(Integer id);
 
   Integer save(Student entity) throws Exception;
+  Integer saveread(Student entity) throws Exception;
 }

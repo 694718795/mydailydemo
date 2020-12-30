@@ -6,22 +6,14 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/zidingyiannotation/pom.xml" />
+        <option value="$PROJECT_DIR$/basic-component/basic-common-web/pom.xml" />
+        <option value="$PROJECT_DIR$/basic-component/data-component/pom.xml" />
         <option value="$PROJECT_DIR$/concurrent/pom.xml" />
-        <option value="$PROJECT_DIR$/reflect/pom.xml" />
-        <option value="$PROJECT_DIR$/readandwrite/pom.xml" />
-        <option value="$PROJECT_DIR$/optional/pom.xml" />
-        <option value="$PROJECT_DIR$/redis_lua/pom.xml" />
-        <option value="$PROJECT_DIR$/hadoopstudy/pom.xml" />
-        <option value="$PROJECT_DIR$/queue/pom.xml" />
-        <option value="$PROJECT_DIR$/esstudy/pom.xml" />
-        <option value="$PROJECT_DIR$/jpcap/pom.xml" />
+        <option value="$PROJECT_DIR$/utilcollection/pom.xml" />
+        <option value="$PROJECT_DIR$/kafkaSink/pom.xml" />
         <option value="$PROJECT_DIR$/kafka/pom.xml" />
-        <option value="$PROJECT_DIR$/webservicedemo/pom.xml" />
-        <option value="$PROJECT_DIR$/datacascade/pom.xml" />
-        <option value="$PROJECT_DIR$/springbootjpadruid/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

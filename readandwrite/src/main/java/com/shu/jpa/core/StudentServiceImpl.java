@@ -59,4 +59,16 @@ public class StudentServiceImpl implements StudentService {
     return perz.getId();
   }
 
+  @Override
+  @Transactional
+  @TargetDateSource(dataSource = DataSourceConfig.READ_DATASOURCE_KEY)
+  public Integer saveread(Student entity) throws Exception {
+    if (entity.getId() != null) {
+      Student perz = studentDao.saveAndFlush(entity);
+      return perz.getId();
+    }
+    Student perz = studentDao.save(entity);
+    return perz.getId();
+  }
+
 }

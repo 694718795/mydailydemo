@@ -52,4 +52,11 @@ public class StudentController {
   public Integer save(@RequestBody Student entity) throws Exception {
     return studentService.save(entity);
   }
+
+  @ApiOperation(value = "新增/更新学生信息", notes = "id为空时表示新增，否则为更新", httpMethod = "POST")
+  @ApiImplicitParam(name = "entity", value = "学生实体类", required = true, dataType = "Student")
+  @RequestMapping(value = "saveread", method = RequestMethod.POST)
+  public Integer saveread(@RequestBody Student entity) throws Exception {
+    return studentService.saveread(entity);
+  }
 }
